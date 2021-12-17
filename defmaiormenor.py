@@ -22,11 +22,15 @@ while True:
         z = int(input('Terceiro Número: '))
         print('Maior: ', maior(x,y,z))
         print('Menor: ', menor(x,y,z))
-        resp = 'S'
-        if resp == 'S':
-            resp = input('Quer continuar [S/N]').upper().strip()
-        if resp == 'N':
-            print('Acabou a brincadeira!')
 
     while True:
         menu()
+        break
+    
+    resp = 'S'
+    if resp == 'S':
+        resp = input('Quer continuar [S/N]').upper().strip()
+    if resp == 'N':
+        print(f'Você digitou {resp}')
+    print('Acabou')
+    break        
