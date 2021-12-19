@@ -39,7 +39,6 @@ lanche = ('Hamburger', 'Suco', 'Pizza', 'Pudim')
 #print(lanche[:2:])  #('Hamburger', 'Suco')
 #print(len(lanche))
 print(sorted(lanche))
-
 # for pos, comida in enumerate(lanche):
 # for cont in range(0, len(lanche)):
 #     print(f'Eu vou comer {comida} na posiçao {pos}')
