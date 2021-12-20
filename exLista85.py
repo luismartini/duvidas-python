@@ -25,7 +25,9 @@ for c in range(0, 8):
     else:
         núm[1].append(valor)
 print('-' * 30)
-print(f'Todos os valores: {núm}')
+#print(f'Todos os valores: {núm}')
+núm[0].sort()
+núm[1].sort()
 print(f'Os valores pares {núm[0]}')
 print(f'Os valores ímpares {núm[1]}')
 '''
