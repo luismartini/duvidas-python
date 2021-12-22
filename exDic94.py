@@ -41,7 +41,7 @@ print()
 print(f'D) As pessoas com idade acima da média foram ', end='')
 for p in cadastro:
     if p['idade'] >= média:
-        print('     ', end='')
+        print('', end='')
         for k, v in p.items():
             print(f'{k}: {v} ', end='')
         print()
