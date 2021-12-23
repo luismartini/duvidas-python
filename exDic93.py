@@ -4,12 +4,13 @@ Crie um programa que gerencie o aproveitamento de um jogador de futebol. O progr
 jogador = dict()
 partidas = list()
 média = 0
+
 jogador['nome'] = input('Nome: ')
 total = int(input(f'Partidas jogadas pelo {jogador["nome"]}: '))
 for c in range(0, total):
     partidas.append(int(input(f'Gols na partida {c + 1}? ')))
-jogador['gols'] = partidas[:]
-jogador['total'] = sum(partidas)
+    jogador['gols'] = partidas[:]
+    jogador['total'] = sum(partidas)
 # Primeira forma
 print('=' * 30)
 for k, v in jogador.items():
